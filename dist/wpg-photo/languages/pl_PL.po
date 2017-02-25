@@ -1,0 +1,815 @@
+# Copyright (C) 2017 wpg-photo
+# This file is distributed under the same license as the wpg-photo package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wpg-bezcieniowapl\n"
+"Report-Msgid-Bugs-To: http://code.zerebny.ovh\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-02-25 20:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! To strona  nie została znaleziona."
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location."
+msgstr "Wygląda na to że, nic nie zostało znalezione pod tym adresem."
+
+#: attachment.php:30 attachment.php:69
+msgid "File size: "
+msgstr "Rozmiar pliku: "
+
+#: attachment.php:36 attachment.php:75
+msgid "Click icon to download"
+msgstr "Kliknij ikonę aby pobrać załącznik"
+
+#: category.php:45 index.php:104 search.php:40 taxonomy-gallery.php:48
+msgid "Previous page"
+msgstr "Poprzednia strona"
+
+#: category.php:46 index.php:105 search.php:41 taxonomy-gallery.php:49
+msgid "Next page"
+msgstr "Następna strona"
+
+#: category.php:47 components/content_single/content-offer.php:33
+#: components/content_single/content-page.php:41
+#: components/content_single/content-work_gallery.php:32
+#: components/content_single/content.php:42
+#: inc/customizer/setting_control/featured/inc_setting_featured_page_dropdown.php:82
+#: index.php:106 search.php:42 taxonomy-gallery.php:50
+msgid "Page"
+msgstr "Strona"
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Komentarz w &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentarze w &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s komentarzy w &ldquo;%2$s&rdquo;"
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr "Komentarze są wyłączone"
+
+#: components/content_multi/content-excerpt-none.php:15
+msgid "Nothing Found"
+msgstr "Nie znaleziono"
+
+#: components/content_multi/content-excerpt-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Przepraszamy, nie udało się znaleźć wyszukiwanego tekstu. Proszę spróbować "
+"ponownie, wprowadzając inne słowa"
+
+#: components/content_multi/content-excerpt-none.php:33
+msgid "The materials are not yet published. We invite you later."
+msgstr "Materiały nie zostały, jeszcze opublikowane. Zapraszamy później."
+
+#: components/content_multi/content-excerpt.php:31
+msgid "Posted on"
+msgstr "Opublikowano dnia:"
+
+#: components/content_multi/content-excerpt.php:35
+msgid "categories"
+msgstr "kategorie"
+
+#: components/content_multi/content-excerpt.php:39
+msgid "by"
+msgstr "przez"
+
+#: components/content_single/content-offer.php:29
+#: components/content_single/content-page.php:37
+#: components/content_single/content-work_gallery.php:28
+#: components/content_single/content.php:38
+msgid "Pages:"
+msgstr "Strony:"
+
+#: components/content_single/content-offer.php:40
+msgid "Show Gallery"
+msgstr "Pokaż Galerię"
+
+#: components/content_single/content-offer.php:47
+#: components/content_single/content-work_gallery.php:44
+#: components/footer/footer-adress.php:12 components/site/site-adress.php:11
+#: page-templates/contact.php:45
+msgid "Call us "
+msgstr "Zadzwoń "
+
+#: components/content_single/content-work_gallery.php:38
+msgid "Show Offer"
+msgstr "Zobacz ofertę"
+
+#: components/features/last_work/loop-last_work.php:13
+#: inc/customizer/setting_control/inc_setting_lastwork.php:13
+#: inc/customizer/setting_control/inc_setting_lastwork.php:39
+msgid "Last work"
+msgstr "Ostatnie sesje"
+
+#: components/features/slider/image-background.php:17
+#: components/features/slider/loop-dropdown.php:52
+msgid "See more"
+msgstr "Zobacz więcej"
+
+#: components/footer/footer-adress.php:18
+#: inc/customizer/setting_control/inc_setting_contact.php:28
+msgid "Address"
+msgstr "Adres"
+
+#: components/footer/footer-adress.php:25
+#: inc/customizer/setting_control/inc_setting_contact.php:57
+msgid "E-mail"
+msgstr "E-mail"
+
+#: components/footer/site-googlemaps.php:19 page-templates/contact.php:90
+msgid "Enter the starting point"
+msgstr "Wpisz swój adres (punkt wyjazdu)"
+
+#: components/footer/site-googlemaps.php:20 page-templates/contact.php:91
+msgid "Show route"
+msgstr "Pokaż trasę"
+
+#: components/footer/site-googlemaps.php:21 page-templates/contact.php:92
+msgid "Hide route"
+msgstr "Ukruj trasę"
+
+#: footer.php:16 inc/customizer/setting_control/inc_setting_contact.php:14
+msgid "Contact"
+msgstr "Kontakt"
+
+#: functions.php:67
+msgid "Header Menu"
+msgstr "Menu w nagłówku"
+
+#: functions.php:145 page-templates/contact.php:88
+msgid "Enable drag"
+msgstr "Włącz przesuwanie"
+
+#: functions.php:146
+msgid "Disable drag"
+msgstr "Wyłacz przesuwanie"
+
+#: functions.php:148
+msgid "Previous Image (left arrow key)"
+msgstr "Poprzednie zdjęcie"
+
+#: functions.php:149
+msgid "Next Image (right arrow key)"
+msgstr "Następne zdjęcie"
+
+#: functions.php:150
+msgid "of"
+msgstr "z"
+
+#: functions.php:151
+msgid "Close (Escape key)"
+msgstr "Zamknij"
+
+#: functions.php:152
+msgid "Loading ..."
+msgstr "Ładowanie"
+
+#: functions.php:153
+msgid "Image"
+msgstr "Zdjęcie"
+
+#: functions.php:154
+msgid "it cannot be loaded."
+msgstr "nie zostało załadowane."
+
+#: functions.php:181
+msgid "Right Sidebar"
+msgstr "Boczny pasek po prawej"
+
+#: functions.php:190
+msgid "Sidebar Overlay"
+msgstr "Pasek rozwujany na dole"
+
+#: header.php:60
+msgid "Menu"
+msgstr "Menu"
+
+#: image.php:31
+#, php-format
+msgid ""
+"Published in size <a href=\"%1$s\" title=\"Link to file\">%2$spx <span class="
+"\"screen-reader-text\">(Image width)</span> to %3$spx <span class=\"screen-"
+"reader-text\">(Image Height)</span></a> in post <a href=\"%4$s\" title="
+"\"Back to %5$s\">%6$s</a>"
+msgstr ""
+"Opublikowano w rozmiarze <a href=\"%1$s\" title=\"Link do pliku\">%2$sPX "
+"<span class=\"screen-reader-text\">(szerokość obrazu)</span> na %3$sPX <span "
+"class=\"screen-reader-text\">(wysokość obrazu)</span></a> w poście <a href="
+"\"%4$s\" title=\"Powrót do %5$s\">%6$s</a>"
+
+#: image.php:46
+msgid "Navigation images"
+msgstr "Nawigacja do zdjęć"
+
+#: image.php:47
+msgid "Previous Image"
+msgstr "Pokaż poprzednie zdjęcie"
+
+#: image.php:48
+msgid "Next Image"
+msgstr "Pokaż kolejny zdjęcie"
+
+#: inc/customizer/custom_control_field/inc_custom_dropdown.php:53
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Wybierz &mdash;"
+
+#: inc/customizer/helpers/inc_helpers.php:100 inc/template-tags.php:98
+#: inc/template-tags.php:128
+msgid "Category"
+msgstr "Kategoria"
+
+#: inc/customizer/helpers/inc_helpers.php:151
+msgid "Profile on the site "
+msgstr "Profile na stronie"
+
+#: inc/customizer/helpers/inc_helpers.php:155
+msgid "Find us on"
+msgstr "Odwiedź nas na:"
+
+#: inc/customizer/helpers/inc_helpers.php:168
+#: inc/customizer/setting_control/inc_setting_blog.php:69
+#: inc/customizer/setting_control/inc_setting_lastwork.php:105
+msgid "Select Category"
+msgstr "Wybierz kategorię"
+
+#: inc/customizer/helpers/inc_helpers.php:169
+#: inc/customizer/setting_control/inc_setting_lastwork.php:90
+msgid "All Categories"
+msgstr "Wszystkie kategorie"
+
+#: inc/customizer/setting_control/featured/inc_setting_featured_page_dropdown.php:13
+msgid "Page featured"
+msgstr "Wyróżnione strony"
+
+#: inc/customizer/setting_control/featured/inc_setting_featured_page_dropdown.php:30
+#: inc/customizer/setting_control/inc_setting_client.php:29
+#: inc/customizer/setting_control/inc_setting_lastwork.php:30
+#: inc/customizer/setting_control/slider/inc_setting_slider_dropdown.php:33
+msgid "Show section"
+msgstr "Pokaż sekscję"
+
+#: inc/customizer/setting_control/inc_setting_blog.php:13
+#: inc/customizer/setting_control/inc_setting_blog.php:21 index.php:72
+msgid "Last post"
+msgstr "Ostanie wpisy"
+
+#: inc/customizer/setting_control/inc_setting_blog.php:29
+#: inc/customizer/setting_control/inc_setting_client.php:51
+#: inc/customizer/setting_control/inc_setting_lastwork.php:46
+msgid "Title section"
+msgstr "Tytuł sekcji"
+
+#: inc/customizer/setting_control/inc_setting_blog.php:45
+#: inc/customizer/setting_control/inc_setting_lastwork.php:76
+#: inc/customizer/setting_control/slider/inc_setting_slider_dropdown.php:70
+msgid "No of items"
+msgstr "Liczba elementów"
+
+#: inc/customizer/setting_control/inc_setting_blog.php:46
+#: inc/customizer/setting_control/inc_setting_lastwork.php:77
+#, php-format
+msgid "Enter number between %1s and %2s ."
+msgstr "Wybierz liczbę między %1s a %2s ."
+
+#: inc/customizer/setting_control/inc_setting_blog.php:70
+#: inc/customizer/setting_control/inc_setting_lastwork.php:106
+msgid "Select category to show in Section."
+msgstr "Wybierz kategorię do pokazania w sekcji."
+
+#: inc/customizer/setting_control/inc_setting_client.php:13
+#: inc/customizer/setting_control/inc_setting_client.php:43
+msgid "Clients"
+msgstr "Klienci"
+
+#: inc/customizer/setting_control/inc_setting_client.php:65
+#: inc/customizer/setting_control/inc_setting_lastwork.php:60
+#: inc/customizer/setting_control/slider/inc_setting_image_header.php:70
+msgid "Description"
+msgstr "Opis"
+
+#: inc/customizer/setting_control/inc_setting_contact.php:43
+msgid "Telephone number"
+msgstr "Numer telefonu"
+
+#: inc/customizer/setting_control/inc_setting_contact.php:74
+msgid "Show google map in contact"
+msgstr "Pokaż mapę w kontaktach"
+
+#: inc/customizer/setting_control/inc_setting_contact.php:94
+msgid "Select a location on map"
+msgstr "Zaznacz swoją lokalizację"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:14
+msgid "Typography"
+msgstr "Typografia"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:42
+msgid "Body Font Family"
+msgstr "Czcionka główna dla strony"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:43
+#: inc/customizer/setting_control/inc_setting_fonts.php:102
+msgid "Select font or option Google Font to see advanced options google fonts."
+msgstr ""
+"Wybierz czcionkę lub opcję Google Font żeby zobaczyć zawansowane opcje "
+"czcionek google."
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:60
+msgid "Google Font Family"
+msgstr "Czcionka Google"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:78
+#: inc/customizer/setting_control/inc_setting_fonts.php:135
+msgid "Font Variant"
+msgstr "Styl Czcionki"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:79
+#: inc/customizer/setting_control/inc_setting_fonts.php:136
+msgid ""
+"Different variants of the font, provides control over font-weight and italics"
+msgstr "Różne style czcionki, zapewnia kontrolę nad pogrubieniem i kursywą"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:101
+msgid "Heading Font Family"
+msgstr "Czcionka Nagłówków"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:117
+msgid "Heading - Google Font Family"
+msgstr "Nagłówek - Czcionka Google"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:150
+msgid "Latin"
+msgstr "Latin"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:151
+msgid "Latin Extended"
+msgstr "Latin Extended"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:152
+msgid "Greek"
+msgstr "Greek"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:153
+msgid "Greek Extended"
+msgstr "Greek Extended"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:154
+msgid "Cyrillic"
+msgstr "Cyrillic"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:155
+msgid "Cyrillic Extended"
+msgstr "Cyrillic Extended"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:156
+msgid "Vietnamese"
+msgstr "Vietnamese"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:157
+msgid "Arabic"
+msgstr "Arabic"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:158
+msgid "Khmer"
+msgstr "Khmer"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:159
+msgid "Devanagari"
+msgstr "Devanagari"
+
+#: inc/customizer/setting_control/inc_setting_fonts.php:171
+msgid "Choose Google Font Subsets"
+msgstr "Wybierz podzbiory czcionek Google"
+
+#: inc/customizer/setting_control/inc_setting_lastwork.php:88
+msgid "Gallery"
+msgstr "Galeria"
+
+#: inc/customizer/setting_control/inc_setting_social_net.php:13
+msgid "Social networks"
+msgstr "Serwisy społecznościowe"
+
+#: inc/customizer/setting_control/inc_setting_social_net.php:35
+#, php-format
+msgid "Link to  %1$s"
+msgstr "Link do %1$s"
+
+#: inc/customizer/setting_control/slider/inc_setting_image_header.php:14
+msgid "Background in header"
+msgstr "Tło nagłówka strony"
+
+#: inc/customizer/setting_control/slider/inc_setting_image_header.php:36
+msgid "Upload a background"
+msgstr "Dodaj tło"
+
+#: inc/customizer/setting_control/slider/inc_setting_image_header.php:55
+msgid "Title header"
+msgstr "Tytuł nagłówka"
+
+#: inc/customizer/setting_control/slider/inc_setting_image_header.php:88
+msgid "Button url"
+msgstr "Link przycisku"
+
+#: inc/customizer/setting_control/slider/inc_setting_slider_dropdown.php:16
+msgid "Slider"
+msgstr "Pokaz Slajdów"
+
+#: inc/customizer/setting_control/slider/inc_setting_slider_dropdown.php:52
+msgid "Show description"
+msgstr "Pokazywać opis?"
+
+#: inc/customizer/setting_control/slider/inc_setting_slider_dropdown.php:71
+#, php-format
+msgid ""
+"Enter number between %1s and %2s .Save and refresh the page if No of Blocks "
+"is changed."
+msgstr ""
+"Wybierz liczbę między %1s and %2s . Zapisz i odśwież stronę aby zobaczyć "
+"nowe pola."
+
+#: inc/customizer/setting_control/slider/inc_setting_slider_dropdown.php:98
+msgid "Slide"
+msgstr "Slajd"
+
+#: inc/customizer/wpg_customizer.php:75
+msgid "Theme Settings"
+msgstr "Ustawienia Szablonu"
+
+#: inc/extras.php:178
+msgid "Untitled"
+msgstr "Bez tytułu"
+
+#: inc/extras.php:252
+msgid "Home"
+msgstr "Strona Główna"
+
+#: inc/meta_box.php:12 inc/meta_box.php:34
+msgid "Offer page section"
+msgstr "Sekcja dotycząca ofert"
+
+#: inc/meta_box.php:19
+msgid "Category witch gallery offer"
+msgstr "Kategoria z galerią oferty"
+
+#: inc/meta_box.php:40
+msgid "Page with offer"
+msgstr "Strona z ofertą"
+
+#: inc/meta_box.php:46
+msgid "Select an Offer"
+msgstr "Wybierz ofertę"
+
+#: inc/meta_box.php:57 inc/meta_box.php:63
+msgid "Slide url"
+msgstr "Link przycisku w slajdzie"
+
+#: inc/meta_box.php:72 inc/meta_box.php:78
+msgid "Client url"
+msgstr "Link do strony klienta"
+
+#: inc/template-tags.php:36
+msgid "Share on Twitter!"
+msgstr "Udostępnij na Twiterze!"
+
+#: inc/template-tags.php:37
+msgid "Share on Google+"
+msgstr "Udostępnij na Google+!"
+
+#: inc/template-tags.php:38
+msgid "Share on Facebook"
+msgstr "Udostępnij na Facebooku!"
+
+#: inc/template-tags.php:66
+msgid "Author"
+msgstr "Autor"
+
+#: inc/template-tags.php:77
+msgid "Data"
+msgstr "Data"
+
+#: inc/template-tags.php:86
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Pozostaw komentarz <span class=\"screen-reader-text\"> w %s</span>"
+
+#: inc/template-tags.php:230
+msgid "Comment navigation"
+msgstr "Nawigacja komentarzy"
+
+#: inc/template-tags.php:233
+msgid "Older Comments"
+msgstr "Starsze Komentarze"
+
+#: inc/template-tags.php:237
+msgid "Newer Comments"
+msgstr "Nowesze Komentarze"
+
+#: index.php:74
+msgid " - page: "
+msgstr " - strona: "
+
+#: page-templates/contact.php:43
+msgid "Information"
+msgstr "Informacje"
+
+#: page-templates/contact.php:69
+msgid "Contact form"
+msgstr "Formularz kontaktowy"
+
+#: page-templates/contact.php:85
+msgid "Location"
+msgstr "Lokalizacja"
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Wyniki wyszukiwania dla: %s"
+
+#: searchform.php:14 searchform.php:16 searchform.php:17
+msgid "Search"
+msgstr "Szukaj"
+
+#: sidebar-overlay.php:17
+msgid "Show Contact"
+msgstr "Pokaż Kontakt"
+
+#: sidebar-overlay.php:18
+msgid "Hide Contact"
+msgstr "Ukryj Kontakt"
+
+#: single.php:31 single.php:32
+msgid "Next gallery"
+msgstr "Kolejna galeria"
+
+#: single.php:34 single.php:35
+msgid "Previous gallery"
+msgstr "Poprzednia galeria"
+
+#: single.php:48 single.php:49
+msgid "Next offer"
+msgstr "Następna oferta"
+
+#: single.php:51 single.php:52
+msgid "Previous offer"
+msgstr "Poprzednia oferta"
+
+#: single.php:64
+msgid "Next"
+msgstr "Następny"
+
+#: single.php:65
+msgid "Next post:"
+msgstr "Następny wpis:"
+
+#: single.php:67
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: single.php:68
+msgid "Previous post:"
+msgstr "Poprzedni wpis:"
+
+#~ msgid ""
+#~ "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#~ msgstr ""
+#~ "Gotowy opublikować pierwszy wpis? <a href=\"%1$s\">Przejdź tutaj</a>."
+
+#~ msgid ""
+#~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+#~ "searching can help."
+#~ msgstr ""
+#~ "Wydaje się, że nie możemy znaleźć to, czego szukasz. Być może "
+#~ "wyszukiwanie pomoże."
+
+#~ msgid "Realization Stages"
+#~ msgstr "Etapy realizacja"
+
+#~ msgid "Featured"
+#~ msgstr "Wyróżnione"
+
+#~ msgid "Stage title"
+#~ msgstr "Tytuł etapu"
+
+#~ msgid "Testimonials"
+#~ msgstr "Opinie"
+
+#~ msgid "Select background style"
+#~ msgstr "Wybierz położenie tła"
+
+#~ msgid "Center"
+#~ msgstr "Wyśrodkowane"
+
+#~ msgid "Left"
+#~ msgstr "Przyklejone do lewej"
+
+#~ msgid "Select color style"
+#~ msgstr "Wybierz kolorystykę"
+
+#~ msgid "White"
+#~ msgstr "Jasna"
+
+#~ msgid "Dark"
+#~ msgstr "Ciemna"
+
+#~ msgid "more"
+#~ msgstr "więcej"
+
+#~ msgid "Link opens in a new window"
+#~ msgstr "Link otwiera się w nowym oknie"
+
+#~ msgid "Stop slideshow"
+#~ msgstr "Zatrzymaj pokaz slajdów"
+
+#~ msgid "Start slideshow"
+#~ msgstr "Uruchom pokaz slajdów"
+
+#~ msgid "Search for:"
+#~ msgstr "Wyszukiwanie dla:"
+
+#~ msgid "Continue reading %s"
+#~ msgstr "Kontynuuj czytanie  %s"
+
+#~ msgid "Attachments"
+#~ msgstr "Załączniki"
+
+#~ msgid "bytes"
+#~ msgstr "bytes"
+
+#~ msgid "Download attachment"
+#~ msgstr "Pobierz załącznik"
+
+#~ msgid "Link to gallery offer"
+#~ msgstr "Link do galerii oferty"
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Kontynuuj czytanie  %s <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "Show featured offers section"
+#~ msgstr "Pokaż sekcję z ofertami"
+
+#~ msgid "Featured Section"
+#~ msgstr "Wyróżniona sekcja"
+
+#~ msgid "Choose offers"
+#~ msgstr "Wybierz oferty"
+
+#~ msgid "Show featured pages section"
+#~ msgstr "Pokaż sekcję z wybranymi stronami"
+
+#~ msgid "Choose pages"
+#~ msgstr "Wybierz strony"
+
+#~ msgid "Show page featured section"
+#~ msgstr "Pokaż sekcję z wybranimi stronami"
+
+#~ msgid "Section description"
+#~ msgstr "Opis sekcji"
+
+#~ msgid "Show featured category"
+#~ msgstr "Pokaż wyróżnione kategorie"
+
+#~ msgid "Off last post"
+#~ msgstr "Wyłącz sekcje ostanie wpisy"
+
+#~ msgid "3 terms"
+#~ msgstr "3 kategrie"
+
+#~ msgid "4 terms"
+#~ msgstr "4 kategorie"
+
+#~ msgid "6 terms"
+#~ msgstr "6 kategori"
+
+#~ msgid "All selected terms"
+#~ msgstr "Zaznacz wszystkie kategorie"
+
+#~ msgid "Category Section"
+#~ msgstr "Wybór typu kategorii"
+
+#~ msgid "Select type taxonomie"
+#~ msgstr "Wybiersz typ kategorii"
+
+#~ msgid "Choose terms"
+#~ msgstr "Wybierz kategorie"
+
+#~ msgid "No of Posts"
+#~ msgstr "Liczba wpisów"
+
+#~ msgid "Enter number between 1 and 8."
+#~ msgstr "Wybierz liczbę między 1 a 8."
+
+#~ msgid "Select category"
+#~ msgstr "Wybierz kategorię"
+
+#~ msgid "Show Clients section"
+#~ msgstr "Pokaż sekcję z kilentami"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Google Font Variant"
+#~ msgstr "Czcion"
+
+#~ msgid "Heading - Font Variant"
+#~ msgstr "Nagłówek - Styl czcionki"
+
+#~ msgid "Show Last Work"
+#~ msgstr "Pokaż ostanie sesje"
+
+#~ msgid "No of Item"
+#~ msgstr "Liczba elementów"
+
+#~ msgid "All Category"
+#~ msgstr "Wszystkie kategorie"
+
+#~ msgid "Show realization stages section"
+#~ msgstr "Pokaż sekcję z etapami realizacji"
+
+#~ msgid "No of Slides"
+#~ msgstr "Liczba slajdów"
+
+#~ msgid ""
+#~ "Enter number between 2 and 10. Save and refresh the page if No of Blocks "
+#~ "is changed."
+#~ msgstr ""
+#~ "Wybierz liczbę między 2 a 10. Zapisz i odśwież stronę aby zobaczyć nowe "
+#~ "pola."
+
+#~ msgid "Stage description"
+#~ msgstr "Opis etapu"
+
+#~ msgid "Show Testimonials section"
+#~ msgstr "Pokaż seksję z opiniami"
+
+#~ msgid "Image heading"
+#~ msgstr "Obraz nagłówka"
+
+#~ msgid "Image description"
+#~ msgstr "Opis w nagłówku"
+
+#~ msgid "Select how many slides:"
+#~ msgstr "Zaznacz liczbę slajdów:"
+
+#~ msgid "Off slider"
+#~ msgstr "Wyłacz slajder"
+
+#~ msgid "3 item"
+#~ msgstr "3 elementy"
+
+#~ msgid "6 item"
+#~ msgstr "6 elementów"
+
+#~ msgid "9 item"
+#~ msgstr "9 elementów"
+
+#~ msgid "All item"
+#~ msgstr "Wszystkie"
+
+#~ msgid "Choose Category"
+#~ msgstr "Wybiersz kategorię"
+
+#~ msgid "Show Slider section"
+#~ msgstr "Pokaż Slajder"
+
+#~ msgid ""
+#~ "Enter number between 1 and 10. Save and refresh the page if No of Blocks "
+#~ "is changed."
+#~ msgstr ""
+#~ "Wybierz liczbę między 1 a 10. Zapisz i odśwież stronę aby zobaczyć nowe "
+#~ "pola."
+
+#~ msgid "Social networks link"
+#~ msgstr "Linki do serwisów społecznościowych"
+
+#~ msgid "Image in site header"
+#~ msgstr "Obraz w nagłówku"
+
+#~ msgid "Offer featured"
+#~ msgstr "Wyróżnione oferty"

@@ -1,0 +1,501 @@
+/*--------------------------------------------------------------
+13.0 Layout
+    13.0.1 Column one/two
+    13.0.2 Section - header
+13.1 Header
+13.2 Footer
+    13.2.2 Contact info 
+    13.2.1 Google maps
+13.3 Front Page
+    13.3.1 Section social
+13.4 Single
+    13.4.1 Post/Page  - Single
+    13.4.2 Attachment - Single
+    13.4.3 Contact Template    
+13.5 Offer - Single    
+    13.5.1 Offer - Archive
+13.6 Sidebar
+    13.6.1 Sidebar - Overlay    
+13.7 Crumbs    
+--------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------
+13.0 Layout
+--------------------------------------------------------------*/
+.fixed-menu {
+    .fixed-element {
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index: 1003;
+        
+    }
+}
+.js .preload .gird-masonry {
+    height:100px;
+    background: url("#{$img-path}loader.gif") no-repeat center center !important;
+   
+    .gird-item{
+        display: none;
+    } 
+}
+
+
+/* 13.0.1 Column one/two
+ * ---------------------------------*/
+#primary{
+   @extend .col-full-margin;
+   background: $four-bw;
+}
+.active-sidebar {
+    #primary{
+        @extend .col-9-margin
+    }
+    #secondary{
+        @extend .col-3-no
+    }
+}
+
+
+/*  13.0.2 Section - header
+ * ---------------------------------*/
+.header-center {
+    position: relative;
+    background-color: $four-bw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h1,h2 {
+        background: inherit;
+        display: inline-block;
+        padding: 20px 2%;
+        margin: 0 auto;
+        z-index: 100;
+        position: relative;
+    }
+    .header-span {
+        position: relative;
+        display: block;
+        background: inherit;
+    }
+    .border {
+        width: 80%;
+        position: absolute;
+        bottom: 50%;
+        left: 10%;
+        display: block;
+        height: 1px;
+        background-color: $light-border;
+        zoom: document;
+    }
+    p  {color: lighten($one-bw, 50%);}
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+13.1 Header
+--------------------------------------------------------------*/
+#site-header {
+    position: relative;
+    min-height: 258px;     
+    color: $four-bw;
+    background-position: center;
+    background-size: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;  
+    z-index: 100;        
+    h1 {margin: 0; padding: 0;}
+
+    &.menu-active{
+       position: relative !important; 
+       background: $two-color !important;
+       background-image: none !important;
+   }
+}
+.home #site-header {
+    position: absolute;
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 20%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00ffffff',GradientType=0 );
+}
+.header {
+    margin-top: 20px;    
+    > div {
+        padding: 5px 5px 5px 30px;
+    }
+    a {
+       color: $four-bw;
+    }
+    &.find-us-on {
+        padding-top: 10px;
+    }
+    &.contact i {
+        margin-left: -30px;
+    }
+}
+.title-area {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    a {
+       color: $four-bw;
+    }    
+    a img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+
+/*--------------------------------------------------------------
+13.2 Footer
+--------------------------------------------------------------*/
+.col-footer {
+       width: 100%;
+       padding-bottom: 40px;
+}
+/*--------------------------------------------------------------
+13.2.1 Google maps
+--------------------------------------------------------------*/
+#section-directions-map {
+    position: relative;
+    margin-bottom: 10px;
+}
+#map-canvas {
+  height: 300px;
+}
+#panel {
+   position: absolute;
+   bottom: 20px;
+   width: 70%;
+   left: 15%;
+   z-index: 100;
+}
+#directions-panel .adp {
+   padding: 2%;
+   img.adp-marker {
+       max-width: none;
+    }
+}
+#drag {
+  position: absolute;
+  right: 2.08333%;
+  top: 19px;
+}
+/*--------------------------------------------------------------
+13.2.2 Contact info 
+--------------------------------------------------------------*/
+.contact-item {
+       padding-top: gutter();
+       padding-bottom: gutter();
+       overflow: hidden;
+    i {
+        display: inline-block;
+        min-width: 30px;
+        text-align: center;
+    }  
+}
+.contact-column {
+    padding: 30px 20px 20px;
+    margin-top: 50px;
+    border: 1px solid $light-border;
+    position: relative;
+    h2 {
+        margin-top: -2px;
+        position: absolute;
+        top: -17px;
+        background: $four-bw;        
+    }
+}
+.find-us-on {
+    a{
+        display: inline-block;
+        height: 28px;
+        width: 28px;
+        margin: 0 7px 17px;
+        line-height: 25px;
+        text-align:center;
+        border: 1px solid $four-bw;
+        transform: rotate(-45deg);
+    i {
+        display:inline-block;
+        transform: rotate(45deg);  
+       }     
+    }
+}
+/*--------------------------------------------------------------
+13.3 Front Page
+--------------------------------------------------------------*/
+.feturad-page,
+.section-stages {
+    padding-top: 40px;  
+    overflow: hidden;
+}
+.client-slider,
+.section-social {
+    padding-bottom: 40px; 
+}
+/*--------------------------------------------------------------
+13.3.2 Last work - feturad box
+--------------------------------------------------------------*/
+.last-work {
+  background: lighten($border-color , 14%);   
+}
+
+/*--------------------------------------------------------------
+13.3.3 Feturad page
+--------------------------------------------------------------*/
+.feturad-page {
+  border-top: 1px solid $light-border;
+}
+
+/*--------------------------------------------------------------
+13.3.4 Section social 
+--------------------------------------------------------------*/
+.section-social {
+    i {
+       @include font-size(4.4,0,'false');
+     }
+    &.find-us-on {
+        margin: 10px 0px 30px;
+    }  
+    &.find-us-on a {
+        height: 70px;
+        width: 70px;
+        margin: 0 20px 35px;
+        line-height: 95px;
+    }      
+}
+/*--------------------------------------------------------------
+13.3.5 Content area
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+13.4 Single
+--------------------------------------------------------------*/
+.site-content {
+   background: lighten($border-color , 16%);
+   padding-top: gutter();;
+   padding-bottom: gutter();
+}
+
+
+
+/*--------------------------------------------------------------
+13.4.1 Single - Post/Page
+--------------------------------------------------------------*/
+.singular {
+    article {
+        margin: gutter();
+    }    
+}
+.title-full-width {
+    text-align: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-color: $light-border;
+    > h1 {
+        position: relative;
+        padding: 60px 10px;  
+        z-index: 101;   
+    }
+}
+.blend {
+    position:absolute;
+    top:0;
+    left:0;
+    display: block;   
+    width: 100%;
+    height: 100%;
+    background: $four-bw;
+    opacity: 0.8; 
+    filter: alpha(opacity=80);
+    z-index: 100;
+}
+.meta-left i {
+    margin-right: 5px;
+}
+.meta-right {
+   margin-right: 10px;
+}   
+.hentry-single {
+   .meta-item {
+       display: inline;
+   } 
+   .entry-meta,
+   .entry-social {
+        padding: 10px 0;
+   }   
+   .post,.page-template-default {
+       .entry-content {
+           margin: 20px 0 40px;
+           min-height: 200px;
+       }       
+   }
+} 
+
+
+
+/*--------------------------------------------------------------
+13.4.2 Attachment - Single
+--------------------------------------------------------------*/
+.attachment-file {
+    width: 300px;
+    margin: 80px auto;
+}
+/*--------------------------------------------------------------
+13.4.3 Contact Template 
+--------------------------------------------------------------*/
+.contact-column > .contact-item {
+  padding: 5px 5px 5px 30px;
+  
+  i {margin-left: -30px;}
+}
+
+
+
+/*--------------------------------------------------------------
+13.5 Offer/Gallery - Single
+--------------------------------------------------------------*/
+.offer-header {
+    padding: 30px 0;
+    margin-bottom: 10px;    
+    border-top: 1px solid $light-border;
+    border-bottom: 1px solid $light-border;
+}
+.relation-link, .phone-box {
+    display: block;
+    width: 100%;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.relation-link {
+    color: $two-color;
+    border: 1px solid $two-color;
+    &:hover {
+        color: $four-bw;
+        background: $one-color;
+    }    
+}
+.phone-box {
+    border: 1px solid $light-border;
+    background: lighten($border-color , 15%);
+}
+.entry-gallery {
+    margin-top: 20px;
+}
+
+.entry-gallery,
+.entry-content {
+    figure {
+        border: 1px solid $light-border;
+    }
+}
+.gird-item {
+    width: span(4 of 12);
+    margin-bottom: gutter(of 48);
+    padding-left: gutter(of 48);
+    padding-right: gutter(of 48);
+}
+#crumbs {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;    
+    border-bottom: 1px solid $light-border;
+    background: lighten($border-color , 16%);   
+    text-transform: lowercase; 
+}
+
+
+
+/*--------------------------------------------------------------
+13.5.1 Offer - Archive
+--------------------------------------------------------------*/
+.archive {
+   .offer{
+       margin:0 gutter() 80px;
+  }
+  .offer-header{
+      background-color: $three-bw;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+13.6 Sidebar
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+13.6.1 Sidebar - Overlay
+--------------------------------------------------------------*/
+.fixed-menu #sidebar-overlay{ 
+    .show-overlay{bottom: 0;}
+} 
+#sidebar-overlay{
+    position: fixed;
+    bottom: -100%;
+    right: 125px;
+    background: $one-color;
+    padding: 5px;
+    max-height: 73%;
+    width:70%;
+    z-index: 103;
+    transition: all 400ms linear;
+    
+    &.active {
+        bottom: 0;
+         .show-overlay{
+            bottom: -100%;
+            opacity: 0;
+        }  
+        .hide-overlay{
+            opacity: 1;
+        }         
+    }   
+   .show-overlay,.hide-overlay {
+        display: block;
+        padding: 6px 40px;
+        width: 250px;
+        text-align: center;
+        color: $four-bw;
+        background: $one-color;
+        transition: all 200ms linear;
+    }
+    .show-overlay{
+        position: fixed;
+        bottom: -100%;
+        right: 125px;
+        opacity:1;
+        z-index: 102;
+        opacity: 1;
+        transition: all 1000ms;
+    }
+    .hide-overlay{
+        position: absolute;
+        top: -30px;
+        right: 0;
+        z-index: 103;
+        opacity: 0;
+    }    
+    .widget {
+        margin: 0;
+        padding: 7px 20px;
+        background: $four-bw;
+    }     
+
+}
+.overlay-form {
+    input, select, textarea {
+        width: 100%;
+        max-width: 100%;
+    }    
+} 

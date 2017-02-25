@@ -1,0 +1,39 @@
+  .gird-item {
+        @include span (12)
+        margin-bottom: gutter();
+    }    
+    /*----------------------------------
+     *  Tablet - Gird
+     *---------------------------------*/
+    #site-header {
+       min-height: 70px; 
+    }
+    .title-area {
+        text-align: left;
+    }
+    .custom-logo-link {
+        display: none;
+    }    
+    /*----------------------------------
+     *  Footer
+     *---------------------------------*/
+    #map-canvas {
+       height: 350px;
+       min-height: 95vh;
+    }
+    #panel {
+       width: 85%;
+       left: 7%;
+    }
+    #start {
+       width: 85%;
+       margin: 5px;
+    }
+     /*----------------------------------
+     *  Single
+     *---------------------------------*/   
+    .hentry-single {
+        .entry-social {
+            text-align: center;
+        }
+    }

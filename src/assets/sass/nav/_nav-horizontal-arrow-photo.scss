@@ -1,0 +1,46 @@
+/*
+ * All
+ * */
+.horizontal	{
+
+	&.wp-nav 							{padding: 14px 0; @include bg-op($four-bw);}
+    &.wp-nav:hover                      {background-color: $four-bw; transition: all 100ms linear;}
+
+	.menu 								{position: relative; float: inherit;}
+
+	.menu ul 							{display: block; position: absolute; left: -999em; z-index: 1003;}
+	.menu ul ul 						{left: -999em;}
+
+    .menu li                            {position: relative; padding: 0 10px; text-align: left;}
+    .menu > li                          {display: inline-block;}
+    .menu li li                         {clear: both; min-width:240px; padding: 0 10px 5px 10px; background: $hv-lili; border-bottom: 1px solid $hv-border;}
+
+	.menu li a 							{display: block; position:relative; padding: 10px 15px; color: $hv-a;}
+	.menu li > a:hover                  {color: $hv-ahover;}
+    
+    /* li - submenu*/
+    .menu li:hover > ul,
+    .menu li.focus > ul                 {display: block; left: 0;}
+    
+    /* li li - submenu*/
+    .menu ul li:hover > ul,
+    .menu ul li.focus > ul              {display: block; left: 100%; top: 0;}
+  
+	.menu li li a 						{color: $hv-aa;}
+	.menu li li > a:hover 				{color: $hv-aahover; background: $hv-lilihover; }
+	.menu li li li  > a:hover 			{color: $hv-aahover; background: $hv-lilihover;	}
+
+    .current_page_item > a,
+    .current-menu-item > a        {font-weight: bold;}
+
+
+	/* strzalki */
+	.menu > li.menu-item-has-children > a:after 	{
+	    @extend [class^="icon-"];
+	    content: "\f107"; display: inline; color: $hv-a; margin-left: 9px; font-weight: bold;}
+	.menu li li.menu-item-has-children > a:after 	{
+	    @extend [class^="icon-"];
+	    content: "\f105"; display: inline; color: $hv-a; margin-left: 9px; font-weight: bold;}
+
+
+}

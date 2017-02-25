@@ -1,0 +1,11 @@
+/*----------------------------------
+ *  Breakpoint $tablet : max-width 768px;
+ * ---------------------------------*/
+@include breakpoint($tablet) {
+    .hentry-multi {
+        .post-content-warp {
+            margin-top: 10px;
+            border-left: 0;
+        }    
+    }
+}
